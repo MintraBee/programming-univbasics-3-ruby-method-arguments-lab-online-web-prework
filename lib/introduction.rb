@@ -4,8 +4,11 @@ end
 
 introduction = ("Mary")
 
-def introduction_with_language_optional("Mary", "Python")
-  puts "Hi, my name is Mary and I am learning to program in "
+def introduction_with_language_optional("name", "language")
+  puts "Hi, my name is #{name} and I am learning to program in #{language}."
+end
+
+introduction_with_language_optional ("Mary", "Python")
 
 
 
